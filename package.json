@@ -1,0 +1,44 @@
+{
+  "name": "heroicons-js",
+  "version": "0.0.1",
+  "description": "Alternative heroicons javascript",
+  "private": false,
+  "main": "dist/heroicons.cjs.js",
+  "browser": "dist/heroicons.umd.js",
+  "module": "dist/heroicons.umd.js",
+  "unpkg": "dist/heroicons.min.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "node icons.js && rollup --config"
+  },
+  "keywords": [
+    "heroicons",
+    "heroicons-js",
+    "tailwindcss",
+    "icon-tailwindcss"
+  ],
+  "author": {
+    "email": "wahyu.dhiraashandy8@gmail.com",
+    "name": "kenhyuwa"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenhyuwa/heroicons-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenhyuwa/heroicons-js/issues",
+    "email": "wahyu.dhiraashandy8@gmail.com"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "fs-extra": "^10.0.0",
+    "heroicons": "github:tailwindlabs/heroicons#v0.4.1",
+    "pascal-case": "^3.1.2",
+    "prettier": "^2.3.1",
+    "rollup": "^2.52.2",
+    "rollup-plugin-commonjs": "^10.1.0"
+  }
+}
